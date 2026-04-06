@@ -1,5 +1,4 @@
 Citizen.CreateThread(function()
-    -- Warte kurz, bis das System bereit ist
     Citizen.Wait(1000)
 
     for i, data in ipairs(Config.StaticScreens) do
