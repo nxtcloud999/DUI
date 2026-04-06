@@ -1,0 +1,261 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 394px;
+  height: 527px;
+  overflow: hidden;
+  background: transparent;
+}
+
+.profil {
+  user-select: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vmin;
+  height: 100vmin;
+  background: linear-gradient(180deg, #000000 0%, #070022 100%);
+  border-radius: 1.6667vmin;
+
+}
+
+.profil .banner {
+  position: absolute;
+  width: 100%;
+  height: 25vmin;
+  border-radius: 1.6667vmin 1.6667vmin 0vmin 0vmin;
+  object-fit: cover;
+}
+
+.profil .avatar {
+  box-sizing: border-box;
+  position: absolute;
+  width: 30vmin;
+  height: 22.5vmin;
+  left: 4.6944vmin;
+  top: 12.5vmin;
+  border: solid 0.5556vmin black;
+  border-radius: 50%;
+
+  overflow: hidden;
+}
+
+.profil .avatar img {
+  position: absolute;
+  min-width: 100%;
+  width: auto;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profil .p1 {
+  position: absolute;
+  width: 63.8519vmin;
+  height: 10.2407vmin;
+  left: 6.4815vmin;
+  top: 29vmin;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4.8333vmin;
+  line-height: 10.2407vmin;
+
+  color: #ffffff;
+}
+
+.profil .profile-head {
+  position: absolute;
+  width: 92.6481vmin;
+  height: 10.2407vmin;
+  left: 6.4815vmin;
+  top: 39.5vmin;
+
+  display: flex;
+  align-items: center;
+  gap: 2.7778vmin;
+}
+
+.profil .p2 {
+  position: relative;
+  width: auto;
+  height: 10.2407vmin;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.8333vmin;
+  line-height: 10.2407vmin;
+
+  color: rgba(255, 255, 255, 0.5);
+  flex-shrink: 0;
+}
+
+.profil .servergroup {
+  position: relative;
+  height: 4.4444vmin;
+  border-radius: 1.2037vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.7778vmin;
+  line-height: 1.8519vmin;
+  text-align: center;
+
+  color: #ffffff;
+
+  background: rgba(72, 72, 72, 0.16);
+  padding: 0.9259vmin;
+  flex-shrink: 0;
+}
+
+.profil .stats {
+  position: absolute;
+  width: 92.7%;
+  height: 27vmin;
+  transform: translateX(-50%);
+  top: 49vmin;
+  left: 50%;
+
+  background: rgba(72, 72, 72, 0.16);
+  border-radius: 1.2037vmin;
+  gap: 10vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profil .stats .item {
+  position: relative;
+  width: 32.4074vmin;
+  height: 32.4074vmin;
+  display: flex;
+  align-items: center;
+  overflow: visible;
+  justify-content: center;
+}
+
+
+.profil .stats .ring1,
+.profil .stats .ring2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.profil .stats .ring2 p {
+  position: absolute;
+  top: 9.2593vmin;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: rgba(255, 255, 255, 0.24);
+  font-size: 2.963vmin;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+.profil .stats .ring2 span {
+  position: absolute;
+  top: 14.3519vmin;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: #ffffff;
+  font-size: 4.6296vmin;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+.profil .badge {
+  position: absolute;
+  width: 92.6481vmin;
+  height: 10.2407vmin;
+  left: 6.5vmin;
+  top: 75vmin;
+
+  display: flex;
+  align-items: center;
+  gap: 2.7778vmin;
+}
+
+.profil .badge-item {
+  display: flex;
+  align-items: center;
+  gap: 1.1111vmin;
+  background: rgba(72, 72, 72, 0.16);
+  border-radius: 1.2037vmin;
+  padding: 1.1111vmin 2.2222vmin;
+  font-family: "Montserrat";
+  font-size: 2.963vmin;
+  font-weight: 600;
+  color: #fff;
+}
+
+.profil .badge-item svg {
+  width: 2.963vmin;
+  height: 2.963vmin;
+  display: block;
+}
+
+.profil .badge-item span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.7778vmin;
+  line-height: 1.8519vmin;
+  font-weight: 500;
+}
+
+.profil .zitat {
+  position: absolute;
+  width: 92.7%;
+  height: 10.2407vmin;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 85vmin;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(72, 72, 72, 0.16);
+  border-radius: 1.2037vmin;
+
+  color: #ffffff;
+}
+
+.profil .zitat span {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 2.963vmin;
+  line-height: 1.6667vmin;
+
+  color: rgba(255, 255, 255, 0.48);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
